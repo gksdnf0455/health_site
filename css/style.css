@@ -1,0 +1,312 @@
+*{
+    margin : 0;
+    padding : 0;
+    color : white;
+    text-decoration: none;
+}
+body{
+    width : 100%;
+    background : url('../img/bodylo.png');
+    z-index : -1;
+    overflow: hidden;
+}
+#logo{
+    width : 100px;
+    height : 60px;
+    float : left;
+}
+.header{
+    width : 100%;
+    height : 60px;
+    
+}
+#dynamic_hole{
+    justify-content : center;
+    display : flex;
+    color : white;
+    border : 1px solid gray; 
+    border-radius: 20px;  
+    position : absolute;
+    top : 10px;
+    left : 700px;
+}
+#dynamic_hole>ul{
+    list-style : none;
+    border-radius: 15px;    
+    display: flex;
+    justify-content: center;
+}
+#dynamic_hole>ul>li{
+    float :left;
+    border-radius: 15px;
+    width : 100px;
+    height : 35px;
+    text-align : center;
+    bottom : 15px;
+    line-height : 33px;
+}
+.main-menu-2{
+    position : absolute;
+    right : 0px;
+    list-style : none;
+}
+.main-menu-2>li{
+  
+  border-radius: 15px;
+  margin : 5px;
+  width : 80px;
+  height : 50px;
+  
+  float : left;
+  float : left;
+  line-height : 50px;
+  text-align : center;
+}   
+#dh1{
+    background : white;
+}
+#dh1>a{
+
+    color : black;
+}
+#bodyimg{
+    background : url('../img/indexbo.png');
+    z-index : 1;
+    position : absolute;
+}
+.bodyconents{
+    width : 100%;
+    height : 869px;
+    position : relative;
+}
+#bodytext{
+    color : white;
+    
+    width : 700px;
+    height : 400px;
+    font-weight : bold;
+    font-size : 80px;
+    position : absolute;
+    top : 250px;
+    left : 130px;
+}
+#itaewon{
+    width : 100%;
+    position : relative;
+}
+#itaewon>#map{
+    width : 1500px;
+    position : absolute;
+    float : left;
+    
+}
+#itbutton{
+    width : 390px;
+    position : relative;
+    float : right;
+    height : 869px;
+    margin : 0 auto;
+}
+#itbutton>#name{
+    margin : 100px;
+    color : white;
+    font-size : 50px;
+    text-align : center;
+    font-weight: bold;
+}
+#fitclub{
+    width : 100%;
+    position : relative;
+    float : left;
+}
+#fitclub>#map{
+    width : 1500px;
+    position : absolute;
+    float : left;
+}
+#fitbutton{
+    width : 390px;
+    position : relative;
+    float : right;
+    height : 869px;
+    margin : 0 auto;
+}
+#fitbutton>#name{
+    margin : 100px;
+    color : white;
+    font-size : 50px;
+    text-align : center;
+    font-weight: bold;
+}
+#fitbutton>#wi{
+    
+    color : white;
+    text-align : center;
+    
+}
+#id{
+    display : block;
+    width : 700px;
+    height : 600px;
+    padding : 20,30px;
+    margin : 0 auto;
+    border-radius : 15px;
+    float : left;
+    
+}
+
+input{
+    width : 400px;
+    height : 40px;
+    margin : 5px;
+    color : black;
+}
+button{
+    position : relative;
+    top : 0px;
+    width : 100px;
+    height : 50px;
+    background : #34495e;
+    text-align: center;
+    line-height : 45px;
+    font-size : 25px;
+    border-radius : 15px;
+    
+}
+button {
+    display: block;
+    margin: 0 auto;
+  }
+.font:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    transform-origin: left;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  body {
+    
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  #loginForm{
+    margin : 0 auto;
+    
+  }
+  #ben,#let,#sq{
+    margin : 10px;
+    float : left;
+    margin-right: 0;
+  }
+ 
+  #ja{
+    position : relative;
+    left : 10%;
+    
+  }
