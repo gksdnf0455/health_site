@@ -5,9 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
     <title>Document</title>
 </head>
 <body>
+    <div class="popup_window">
+        <div class="popup_content">
+          <div class="popup_top">
+            <h3>트레이너 매칭서비스</h3>
+            이제는 헬스장뿐만 아니라<br>
+            내 근처에 있는 트레이너를 선택할 수 있습니다!<br>
+            반경 5km이내에 있는 트레이너와 매칭 해줍니다.
+          </div>
+          <div class="popup_bottom">
+            <input type="button" class="팝업닫기" value="닫기">
+          </div>
+        </div>
+      </div>
         <div class="header">
             <div id="dynamic_hole">
                 <ul>
@@ -15,7 +30,7 @@
                   <li><a href="./location.html">Location</li>  
                   <li><a href="./Posture.html">Posture</a></li>  
                   <li><a href="./AboutUs.html">About Us</a></li>  
-                  <li><a href="./help.html">Help</a></li>  
+                  <li><a href="./review.html">Reviews</a></li>  
                   </ul>
             </div>
             
@@ -26,12 +41,43 @@
                 <div class="font">Get Strong,</div>
                 <div class="font">Get Healthy!</div>
             </div>
-            <div id="bodyimg">
-
-            </div>
         </div>
         <div class="footer">
             
         </div>
+        
+
+<!-- 메인 영역 -->
+<div class="container collapse">
+
+    <!-- 사이드바 영역 -->
+    <div class="sidebar">
+  
+      <!-- 메뉴 상태 변경 버튼 추가 -->
+      <label class="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div id="menu_te">
+        <ul>
+            <li><div><a class="팝업버튼">트레이너 매칭 서비스</a></div></li>
+        </ul>
+        <br>
+      운동부위<br><br>
+      어깨<br><br>
+      하체<br><br>
+      가슴<br><br>
+      복근<br><br>
+      등
+      </div>
+    </div>
+  
+    
+  
+  </div>
+
+ 
 </body>
 </html>
+
